@@ -3,13 +3,14 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e8f5e9;
+    color: #333;
 }
 
 header {
-    background: #333;
+    background: #4caf50; /* A pleasant green color */
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -26,18 +27,40 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 h1, h2 {
-    color: #333;
+    color: #4caf50; /* Matching color for headings */
+}
+
+h2 {
+    border-bottom: 2px solid #4caf50; /* Underline for subheadings */
+    padding-bottom: 5px;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    background: #333;
+    padding: 15px 0;
+    background: #4caf50;
     color: #fff;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+a {
+    color: #4caf50; /* Link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
 }
