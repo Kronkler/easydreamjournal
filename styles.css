@@ -10,26 +10,35 @@ body {
 header {
     background: #4caf50;
     color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    position: relative;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
-    width: 80px; /* Adjust size as needed */
-    border: 2px solid #fff; /* White border around logo */
-    border-radius: 50%; /* Circular logo appearance */
-    margin-bottom: 10px;
+    width: 50px; /* Control the logo size here */
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-right: 15px; /* Space between logo and site name */
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #fff;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0;
+    display: flex;
+    gap: 15px; /* Space between navigation items */
 }
 
 nav ul li a {
@@ -38,11 +47,8 @@ nav ul li a {
     font-weight: bold;
 }
 
-h1, h2 {
-    color: #4caf50;
-}
-
 h2 {
+    color: #4caf50;
     border-bottom: 2px solid #4caf50;
     padding-bottom: 5px;
 }
@@ -60,8 +66,6 @@ footer {
     padding: 15px 0;
     background: #4caf50;
     color: #fff;
-    position: relative;
-    bottom: 0;
     width: 100%;
 }
 
