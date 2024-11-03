@@ -8,10 +8,18 @@ body {
 }
 
 header {
-    background: #4caf50; /* A pleasant green color */
+    background: #4caf50;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    position: relative;
+}
+
+.logo {
+    width: 80px; /* Adjust size as needed */
+    border: 2px solid #fff; /* White border around logo */
+    border-radius: 50%; /* Circular logo appearance */
+    margin-bottom: 10px;
 }
 
 nav ul {
@@ -31,20 +39,20 @@ nav ul li a {
 }
 
 h1, h2 {
-    color: #4caf50; /* Matching color for headings */
+    color: #4caf50;
 }
 
 h2 {
-    border-bottom: 2px solid #4caf50; /* Underline for subheadings */
+    border-bottom: 2px solid #4caf50;
     padding-bottom: 5px;
 }
 
 section {
     margin: 20px;
     padding: 15px;
-    background-color: #fff; /* White background for sections */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -58,9 +66,9 @@ footer {
 }
 
 a {
-    color: #4caf50; /* Link color */
+    color: #4caf50;
 }
 
 a:hover {
-    text-decoration: underline; /* Underline links on hover */
+    text-decoration: underline;
 }
