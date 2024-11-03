@@ -20,11 +20,11 @@ header {
 }
 
 .logo {
-    width: 50px; /* Control the logo size here */
-    height: 50px;
+    width: 60px; /* Increased from 50px to make the logo larger */
+    height: 60px;
     border: 2px solid #fff;
     border-radius: 50%;
-    margin-right: 15px; /* Space between logo and site name */
+    margin-right: 15px;
 }
 
 h1 {
@@ -39,6 +39,10 @@ nav ul {
     margin: 0;
     display: flex;
     gap: 15px; /* Space between navigation items */
+}
+
+nav ul li {
+    display: inline;
 }
 
 nav ul li a {
